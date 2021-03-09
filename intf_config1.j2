@@ -1,0 +1,6 @@
+interface gigabitEthernet 0/0/0
+   {%- if primary_ip %}
+   ip address 10.222.83.111 255.255.255.0
+   {%- endif %}
+   negotiation auto
+
